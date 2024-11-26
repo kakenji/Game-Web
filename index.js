@@ -177,6 +177,10 @@ function opcaoI(){
             titulo.innerHTML = "Revolução Fracassada";
             resultado.innerHTML = "A Chama Extinta! A Revolução perdeu força devido a decisões mal planejadas e à falta de apoio popular. A Coroa reprimiu os insurgentes, e o antigo regime voltou ao poder. No entanto, as ideias revolucionárias continuarão inspirando o futuro.";
         }
+        else {
+            titulo.innerHTML = "Por Pouco!"
+            resultado.innerHTML = "Por um deslize! A Revolução perdeu um pouco de força, mas teve apoio o suficiente para usurpar a Coroa. Apesar da aliança com os nobres, nem eles previram esta!"
+        }
 }
 
 function opcaoJ(){
